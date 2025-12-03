@@ -1293,9 +1293,9 @@ header {margin: 0 10px 19px;}
       .login a{font-size: 12px; color: #fff; font-weight:bold;}
       .login a:hover{color:#8cc503;}
    .middle{overflow: hidden;background: url('../images/header_middle.png') repeat-x #2b2b2d;padding: 22px 20px 26px 33px;}
-   .middle .h_banner{background: url('../images/heabanner-466х58.gif') no-repeat;display:block;width:466px;float:right;padding-top:20px;height:38px;border:1px solid #38383c;text-align:center;font-size: 17px; color: #555557;}
-header h1{width:123px;padding-top:0px; float:left;}
-header h1 a {display:block;width:130px;height:65px;background:url(../images/logo/logo2.svg) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
+   /*.middle .h_banner{background: url('../images/heabanner-466х58.gif') no-repeat;display:block;width:466px;float:right;padding-top:20px;height:38px;border:1px solid #38383c;text-align:center;font-size: 17px; color: #555557;}*/
+/*header h1{width:123px;padding-top:0px; float:left;}*/
+header h1 a {display:block;width:130px;height:65px;background:url(../images/logo/java.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
 
 #search{float:right;padding:14px 15px 0 0;}
 #search input{background:#e1e1e1;border-bottom:1px solid #f5f5f5;font-family:Arial, Arial, Helvetica, sans-serif;border-left:1px solid #dcdcdc;border-top:1px solid #b3b3b3;border-right:1px solid #dcdcdc;border-radius:3px;width:198px;font-size: 12px; color: #2f2f2f;padding: 5px 10px 4px;height:15px;}
