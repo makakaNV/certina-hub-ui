@@ -71,7 +71,7 @@
                 <ul class="sf-menu">
                     <li><a href="index.html">home</a></li>
                     <li><a target="_blank" href="https://github.com/makakaNV/certina-hub-ui">documentation</a></li>
-                    <li><a target="_blank" href="https://www.udemy.com/user/mykola-shchypailo/">udemy-courses</a></li>
+                    <li><a target="_blank" href="https://gitlab.com/certina-group">backend</a></li>
                     <li><a href="#">community</a></li>
                     <li><a href="pages/contacts.html">contacts</a></li>
                 </ul>
@@ -369,7 +369,7 @@
         latestPostsContainer.style.display = 'none';
         preloader.style.display = 'flex';
 
-        fetch('https://post-wave-swagger.fun/posts/all?page=0&limit=10', {
+        fetch('https://certina-projects.ru/posts/all?page=0&limit=10', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -460,7 +460,7 @@
         const latestCommentsContainer = document.getElementById('latest-comments');
         const commentInfoContainer = document.getElementById('comments-info-container');
 
-        fetch('https://post-wave-swagger.fun/comments/all?page=0&limit=10', {
+        fetch('https://certina-projects.ru/comments/all?page=0&limit=10', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -524,7 +524,7 @@
         const latestUsersContainer = document.getElementById('latest-users');
         const usersInfoContainer = document.getElementById('users-info-container');
 
-        fetch('https://post-wave-swagger.fun/users/all?page=0&limit=10', {
+        fetch('https://certina-projects.ru/users/all?page=0&limit=10', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -675,7 +675,7 @@
     };
 
     function handleCredentialResponse(response) {
-        fetch("https://post-wave-swagger.fun/auth/oauth2/one-tap", {
+        fetch("https://certina-projects.ru/auth/oauth2/one-tap", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
