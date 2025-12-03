@@ -186,7 +186,7 @@
         errorMessage.style.display = 'none';
 
         function fetchUserInfo() {
-            fetch(`https://post-wave-swagger.fun/users/info`, {
+            fetch(`https://www.certina-hub.ru/users/info`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -281,7 +281,7 @@
         function saveAccountDetails(username, email, phone) {
             showPreloader();
 
-            fetch(`https://post-wave-swagger.fun/users/${userId}`, {
+            fetch(`https://www.certina-hub.ru/users/${userId}`, {
                 method: 'PUT',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -353,7 +353,7 @@
             showPreloader();
 
             try {
-                const res = await fetch(`https://post-wave-swagger.fun/users/${userId}`, {
+                const res = await fetch(`https://www.certina-hub.ru/users/${userId}`, {
                     method: 'DELETE',
                     headers: {
                         'Authorization': `Bearer ${token}`

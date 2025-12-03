@@ -232,7 +232,7 @@
         function fetchPosts(page) {
             showLoader();
 
-            fetch(`https://post-wave-swagger.fun/posts/all?page=${page - 1}&limit=${postsPerPage}&sort=id,desc`, {
+            fetch(`https://www.certina-hub.ru/posts/all?page=${page - 1}&limit=${postsPerPage}&sort=id,desc`, {
                 method: 'GET',
                 headers: {'Content-Type': 'application/json'}
             })
@@ -266,7 +266,7 @@
             document.getElementById('welcome-message').style.display = 'block';
             document.getElementById('greeting').textContent = username;
 
-            fetch(`https://post-wave-swagger.fun/posts/all?page=${currentPage - 1}&limit=${postsPerPage}&sort=id,desc`, {
+            fetch(`https://www.certina-hub.ru/posts/all?page=${currentPage - 1}&limit=${postsPerPage}&sort=id,desc`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

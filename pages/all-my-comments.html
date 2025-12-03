@@ -205,7 +205,7 @@
             document.getElementById('welcome-message').style.display = 'block';
             document.getElementById('greeting').textContent = username;
 
-            fetch('https://post-wave-swagger.fun/comments', {
+            fetch('https://www.certina-hub.ru/comments', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -320,7 +320,7 @@
 
         function saveComment(commentId, newContent, postId, commentItem) {
             showPreloader();
-            fetch(`https://post-wave-swagger.fun/comments/${commentId}`, {
+            fetch(`https://www.certina-hub.ru/comments/${commentId}`, {
                 method: 'PUT',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -356,7 +356,7 @@
 
         function deleteComment(commentId, commentItem) {
             showPreloader();
-            fetch(`https://post-wave-swagger.fun/comments/${commentId}`, {
+            fetch(`https://www.certina-hub.ru/comments/${commentId}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${token}`,

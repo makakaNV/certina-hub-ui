@@ -172,7 +172,7 @@
             document.getElementById('welcome-message').style.display = 'block';
             document.getElementById('greeting').textContent = username;
 
-            fetch(`https://post-wave-swagger.fun/actionLogs/all?page=${currentPage - 1}&limit=${logsPerPage}`, {
+            fetch(`https://www.certina-hub.ru/actionLogs/all?page=${currentPage - 1}&limit=${logsPerPage}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -272,7 +272,7 @@
         function fetchLogs(page) {
             const preloader = document.getElementById('preloader');
 
-            fetch(`https://post-wave-swagger.fun/actionLogs/all?page=${page - 1}&limit=${logsPerPage}&sort=id,desc`, {
+            fetch(`https://www.certina-hub.ru/actionLogs/all?page=${page - 1}&limit=${logsPerPage}&sort=id,desc`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

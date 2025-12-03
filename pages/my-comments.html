@@ -204,7 +204,7 @@
         function saveComment(commentId, newContent, postId, commentItem) {
             showPreloader();
 
-            fetch(`https://post-wave-swagger.fun/comments/${commentId}`, {
+            fetch(`https://www.certina-hub.ru/comments/${commentId}`, {
                 method: 'PUT',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -263,7 +263,7 @@
         });
 
         function deleteComment(commentId) {
-            fetch(`https://post-wave-swagger.fun/comments/${commentId}`, {
+            fetch(`https://www.certina-hub.ru/comments/${commentId}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -336,7 +336,7 @@
 
         preloader.style.display = 'flex';
 
-        fetch('https://post-wave-swagger.fun/comments', {
+        fetch('https://www.certina-hub.ru/comments', {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`,
