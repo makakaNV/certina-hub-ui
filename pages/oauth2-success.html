@@ -13,7 +13,7 @@
     if (token) {
         localStorage.setItem("token", token);
 
-        fetch("https://www.certina-hub.ru/users/info", {
+        fetch("https://certina-projects.ru/users/info", {
             method: "GET",
             headers: {
                 "Authorization": "Bearer " + token

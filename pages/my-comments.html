@@ -37,7 +37,7 @@
             <div class="nav">
                 <ul class="sf-menu">
                     <li><a href="../index.html">home</a></li>
-                    <li><a target="_blank" href="https://nick8787.github.io/post-hub-documentation/">documentation</a></li>
+                    <li><a target="_blank" href="https://github.com/makakaNV/certina-hub-ui">documentation</a></li>
                     <li><a target="_blank" href="https://www.udemy.com/user/mykola-shchypailo/">udemy-courses</a></li>
                     <li><a href="#">community</a></li>
                     <li><a href="contacts.html">contacts</a></li>
@@ -128,9 +128,8 @@
     <footer>
         <div class="menu">
             <a href="../index.html">home</a>
-            <a href="https://nick8787.github.io/post-hub-documentation/" target="_blank">documentation</a>
-            <a href="https://www.udemy.com/user/mykola-shchypailo/" target="_blank">udemy-courses</a>
-            <a href="community.html">community</a>
+            <a href="https://github.com/makakaNV/certina-hub-ui" target="_blank">documentation</a>
+            <a href="https://gitlab.com/certina-group/" target="_blank">backend project</a>            <a href="community.html">community</a>
             <a href="contacts.html">contacts</a>
         </div>
         <div class="privacy">
@@ -204,7 +203,7 @@
         function saveComment(commentId, newContent, postId, commentItem) {
             showPreloader();
 
-            fetch(`https://www.certina-hub.ru/comments/${commentId}`, {
+            fetch(`https://certina-projects.ru/comments/${commentId}`, {
                 method: 'PUT',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -263,7 +262,7 @@
         });
 
         function deleteComment(commentId) {
-            fetch(`https://www.certina-hub.ru/comments/${commentId}`, {
+            fetch(`https://certina-projects.ru/comments/${commentId}`, {
                 method: 'DELETE',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -336,7 +335,7 @@
 
         preloader.style.display = 'flex';
 
-        fetch('https://www.certina-hub.ru/comments', {
+        fetch('https://certina-projects.ru/comments', {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`,
