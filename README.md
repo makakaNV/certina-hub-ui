@@ -12,7 +12,7 @@
 
 # 📬 Post Hub - microservices demo project
 
-**Post Hub** is a demo project created for my Udemy course to demonstrate how microservices work in practice. It lets users register, log in, create posts and comments, and shows how services communicate via Kafka and are secured with JWT.
+**Post Hub** is a demo project created to demonstrate how microservices work in practice. It lets users register, log in, create posts and comments, and shows how services communicate via Kafka and are secured with JWT.
 
 ## 🔍 What the project does
 
